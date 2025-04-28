@@ -18,7 +18,7 @@ export default function Home() {
     <GlobalStyles />
     <Header />
     <Banner />
-    {/* <EducationSection /> */}
+    <EducationSection />
     {/* <BreakImage /> */}
     {/* <StructureAccordion /> */}
     {/* <ContactSection /> */}
