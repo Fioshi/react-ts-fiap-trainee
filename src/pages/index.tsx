@@ -19,8 +19,8 @@ export default function Home() {
     <Header />
     <Banner />
     <EducationSection />
-    {/* <BreakImage /> */}
-    {/* <StructureAccordion /> */}
+    <BreakImage />
+    <StructureAccordion />
     {/* <ContactSection /> */}
     {/* <ScrollTop /> */}
     </>

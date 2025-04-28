@@ -1,7 +1,7 @@
 import { styled } from "styled-components";
 
 export const SectionMain = styled.section`
-  height: 100vh;
+  min-height: 100vh;
   font-family: 'Gotham', sans-serif;
   background: #f7f7f7;
   padding: 4rem 2rem;
@@ -20,7 +20,7 @@ export const SectionMain = styled.section`
   }
 
   @media (max-width: 414px) {
-    height: 100vh;
+    height: 135vh;
   }
 
   @media (max-width: 375px) {

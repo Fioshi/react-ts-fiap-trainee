@@ -3,7 +3,7 @@ import { BackgroundImg } from "./style"
 
 const BreakImage = () => {
     return(
-        <BackgroundImg/>
+      <BackgroundImg/>
     )
 }
 

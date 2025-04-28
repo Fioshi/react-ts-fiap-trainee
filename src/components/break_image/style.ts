@@ -8,4 +8,9 @@ export const BackgroundImg = styled.section`
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-`
+
+  @media (max-width: 414) {
+    background-attachment: scroll;
+    height: 100vh;
+  }
+`;
