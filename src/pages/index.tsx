@@ -21,7 +21,7 @@ export default function Home() {
     <EducationSection />
     <BreakImage />
     <StructureAccordion />
-    {/* <ContactSection /> */}
+    <ContactSection />
     {/* <ScrollTop /> */}
     </>
   );

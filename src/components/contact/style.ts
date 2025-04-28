@@ -16,6 +16,13 @@ export const Title = styled.h1`
     font-size: 8rem;
     line-height: 100%;
     color: var(--pastel-blue);
+
+    @media (max-width: 1024px) {
+        font-size: 4rem;
+        width: 70%;
+        text-align: center;
+        font-weight: 500;
+    }
 `
 
 export const Button = styled.button`
@@ -33,4 +40,9 @@ export const Button = styled.button`
         background-color: var(--magenta);
         color: var(--black);
     }
+
+    @media (max-width: 1024px) {
+        font-size: 2rem;
+        text-align: center;
+  }
 `

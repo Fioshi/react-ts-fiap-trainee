@@ -1,4 +1,3 @@
-// animation.ts
 import { gsap } from 'gsap';
 import { RefObject } from 'react';
 
