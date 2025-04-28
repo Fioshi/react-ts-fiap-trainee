@@ -56,3 +56,36 @@ Aqui estão algumas orientações para a aplicação:
 ## 📂 Estrutura de Diretórios
 
 Aqui está uma visão geral da estrutura de diretórios do projeto:
+```bash
+src/
+├── components/
+│   ├── index.tsx
+│   ├── style.ts
+│   ├── banner/
+│   │   ├── animation.ts
+│   │   ├── index.tsx
+│   │   ├── style.ts
+│   ├── break_image/
+│   │   ├── index.tsx
+│   │   ├── style.ts
+│   ├── contact/
+│   │   ├── index.tsx
+│   │   ├── style.ts
+│   ├── header/
+│   │   ├── animation.ts
+│   │   ├── header.tsx
+│   │   ├── style.ts
+│   ├── structure/
+│   │   ├── animation.ts
+│   │   ├── index.tsx
+│   │   ├── style.ts
+│   ├── upper-button/
+│   │   ├── index.tsx
+│   │   ├── style.ts
+├── pages/
+│   ├── _app.tsx
+│   ├── _document.tsx
+│   ├── index.tsx
+├── styles/
+│   ├── global_styles.tsx
+│   ├── normalize_css.tsx
