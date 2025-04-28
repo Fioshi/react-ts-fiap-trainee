@@ -10,5 +10,6 @@ export const GlobalStyles = createGlobalStyle`
     --cultured: #F5F5F5;
     --spanish-blue: #006BB7;
     --silver-foil: #AFAFAF;
+    --deep-blue: #180D3A;
 }
 `

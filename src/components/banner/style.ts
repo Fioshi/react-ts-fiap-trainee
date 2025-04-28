@@ -66,7 +66,8 @@ export const Content = styled.div`
 
 export const Title = styled.h1`
   font-size: 8rem;
-  font-family: 'Gotham', sans-serif;
+  font-family: 'Gotham-Bold', sans-serif;
+  font-weight: 500;
 
   @media (max-width: 1024px) {
     font-size: 6rem;
@@ -157,6 +158,10 @@ export const Scroll = styled.a`
   line-height: 1;
   color: var(--pastel-blue);
   margin: 0 0 8px;
+
+  @media (max-width: 1024px) {
+    display: none;
+  }
 `;
 
 export const ScrollArrow = styled.img`

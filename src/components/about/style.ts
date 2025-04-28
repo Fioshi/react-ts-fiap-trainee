@@ -35,6 +35,8 @@ export const Title = styled.h2`
   text-align: left;
   align-self: baseline;
   width: 81.7rem;
+  font-family: 'Gotham-bold', sans-serif;
+  font-weight: 500;
 
   @media (max-width: 1024px) {
     margin-top: 10rem;
