@@ -15,7 +15,7 @@ import {
   Scroll, 
   ScrollArrow, 
   Title 
-} from '../banner/style';
+} from './style';
 
 gsap.registerPlugin(ScrollTrigger);
 
