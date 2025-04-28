@@ -1,4 +1,3 @@
-// animation.ts
 import { gsap } from 'gsap';
 
 export function updateProgressBar(progressBar: HTMLDivElement) {

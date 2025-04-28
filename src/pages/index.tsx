@@ -18,11 +18,11 @@ export default function Home() {
     <GlobalStyles />
     <Header />
     <Banner />
-    <EducationSection />
-    <BreakImage />
-    <StructureAccordion />
-    <ContactSection />
-    <ScrollTop />
+    {/* <EducationSection /> */}
+    {/* <BreakImage /> */}
+    {/* <StructureAccordion /> */}
+    {/* <ContactSection /> */}
+    {/* <ScrollTop /> */}
     </>
   );
 }

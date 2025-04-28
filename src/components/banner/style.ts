@@ -8,6 +8,23 @@ export const Container = styled.section`
   flex-direction: column;
   justify-content: space-around;
   overflow: hidden;
+
+  @media (max-width: 1024px) {
+    height: 80vh;
+  }
+
+  @media (max-width: 768px) {
+    height: 70vh;
+  }
+
+  @media (max-width: 414px) {
+    height: 60vh;
+    justify-content: end;
+  }
+
+  @media (max-width: 375px) {
+    height: 55vh;
+  }
 `;
 
 export const Background = styled.div`
@@ -32,11 +49,40 @@ export const Content = styled.div`
   position: relative;
   z-index: 2;
   margin-left: 26rem;
+
+  @media (max-width: 1024px) {
+    margin-left: 10rem;
+  }
+
+  @media (max-width: 768px) {
+    margin-left: 5rem;
+  }
+
+  @media (max-width: 414px) {
+    margin-left: 0;
+    padding: 2rem;
+  }
 `;
 
 export const Title = styled.h1`
   font-size: 8rem;
   font-family: 'Gotham', sans-serif;
+
+  @media (max-width: 1024px) {
+    font-size: 6rem;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 5rem;
+  }
+
+  @media (max-width: 414px) {
+    font-size: 4rem;
+  }
+
+  @media (max-width: 375px) {
+    font-size: 3.5rem;
+  }
 `;
 
 export const OutlinedDark = styled.span`
@@ -58,6 +104,24 @@ export const Description = styled.p`
   font-size: 2rem;
   line-height: 1.4;
   font-family: 'Gotham', sans-serif;
+
+  @media (max-width: 1024px) {
+    width: 60rem;
+  }
+
+  @media (max-width: 768px) {
+    width: 100%;
+    font-size: 1.8rem;
+  }
+
+  @media (max-width: 414px) {
+    width: 100%;
+    font-size: 1.6rem;
+  }
+
+  @media (max-width: 375px) {
+    font-size: 1.4rem;
+  }
 `;
 
 export const ScrollDown = styled.div`
@@ -72,6 +136,14 @@ export const ScrollDown = styled.div`
   text-align: center;
   align-items: center;
   z-index: 2;
+
+  @media (max-width: 768px) {
+    bottom: 20px;
+  }
+
+  @media (max-width: 414px) {
+    display: none;
+  }
 `;
 
 export const Scroll = styled.a`
