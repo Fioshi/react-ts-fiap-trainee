@@ -22,7 +22,7 @@ export default function Home() {
     <BreakImage />
     <StructureAccordion />
     <ContactSection />
-    {/* <ScrollTop /> */}
+    <ScrollTop />
     </>
   );
 }

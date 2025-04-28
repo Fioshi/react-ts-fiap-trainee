@@ -27,7 +27,8 @@ const ScrollTop = () => {
   if (!showButton) return null;
 
   return (
-    <ScrollToTopButton onClick={scrollToTop}>
+    <ScrollToTopButton 
+    onClick={scrollToTop}>
       <Img src={'/assets/svg/scroll-up-arrow.svg'}/>
     </ScrollToTopButton>
   );

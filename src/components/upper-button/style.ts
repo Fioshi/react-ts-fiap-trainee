@@ -11,7 +11,6 @@ export const ScrollToTopButton = styled.button`
   height: 5rem;
   cursor: pointer;
   z-index: 3;
-
 `;
 
 export const Img = styled.img`

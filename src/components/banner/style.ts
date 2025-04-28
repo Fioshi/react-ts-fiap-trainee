@@ -148,16 +148,15 @@ export const ScrollDown = styled.div`
 `;
 
 export const Scroll = styled.a`
+  text-decoration: none;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: transparent;
-  border: none;
   font-family: 'Gotham', sans-serif;
-  font-size: 12px;
+  font-size: 1.2rem;
   line-height: 1;
   color: var(--pastel-blue);
-  margin: 0 0 8px;
+  margin: 0 0 0.8rem;
 
   @media (max-width: 1024px) {
     display: none;
@@ -165,7 +164,7 @@ export const Scroll = styled.a`
 `;
 
 export const ScrollArrow = styled.img`
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   width: 1em;
   height: 1em;
   border: 1px solid var(--pastel-blue);
