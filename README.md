@@ -1,8 +1,5 @@
 # FIAP TRAINEE
 
-Uma breve descrição sobre o que o projeto faz e qual problema ele resolve.
-
-
 ## 📝 Descrição
 
 Este é um projeto de exemplo criado como parte do desafio da vaga de **Pessoa desenvolvedora Front-End de nivel Trainee.** A aplicação foi construída com **Next.js**, **React** com **TypeScript**, **Styled Components** para estilização e **GSAP** para animações.
@@ -15,7 +12,6 @@ Este projeto utiliza as seguintes tecnologias:
 - **Next.js**: Framework React para renderização server-side e otimização de performance.
 - **Styled Components**: Biblioteca para estilização em componentes, permitindo escopo isolado de estilos e temas.
 - **GSAP**: Biblioteca para animações, proporcionando transições e animações suaves.
-- **CSS Variables**: Utilizado em conjunto com Styled Components para garantir consistência visual através de um tema centralizad
 
 ## 🛠️ Instalação
 
@@ -51,7 +47,7 @@ Aqui estão algumas orientações para a aplicação:
 
 - **Styled Components**: Os estilos são definidos dentro dos arquivos de componentes, podendo ser facilmente ajustados para personalização.
 - **GSAP**: As animações estão localizadas dentro de arquivos específicos de animações (`animation.ts`), onde você pode criar novas animações para diferentes componentes.
-- **Componentes**: A estrutura de componentes é modularizada, com arquivos separados para lógica (`index.tsx`), estilos (`styles.ts`) e animações (`animation.ts`).
+- **Componentes**: A estrutura de componentes é modularizada, com arquivos separados para lógica (`index.tsx`), estilos (`style.ts`) e animações (`animation.ts`).
 
 ## 📂 Estrutura de Diretórios
 
