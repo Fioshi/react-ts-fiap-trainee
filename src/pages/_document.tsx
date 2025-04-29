@@ -3,8 +3,12 @@ import Structure from "../components/landing-page/structure";
 
 export default function Document() {
   return (
-    <Html lang="en">
-      <Head />
+    <Html 
+      lang="pt_br">
+      <Head>
+        <link rel="icon" href="assets/favicon.ico" />
+        
+      </Head>
       <body>
         <Main />
         <NextScript />

@@ -49,6 +49,9 @@ export const Content = styled.div`
   position: relative;
   z-index: 2;
   margin-left: 26rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 
   @media (max-width: 1024px) {
     margin-left: 10rem;
@@ -91,6 +94,7 @@ export const OutlinedDark = styled.span`
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 2px var(--magenta);
   color: transparent;
+  margin-bottom: 1rem;
 `;
 
 export const Highlight = styled.span`
@@ -100,10 +104,10 @@ export const Highlight = styled.span`
 
 export const Description = styled.p`
   width: 71rem;
-  margin-top: 2rem;
   color: var(--pastel-blue);
-  font-size: 2rem;
+  font-size: 1.8rem;
   line-height: 1.4;
+  font-weight: 500;
   font-family: 'Gotham', sans-serif;
 
   @media (max-width: 1024px) {
