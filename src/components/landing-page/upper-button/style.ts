@@ -11,7 +11,16 @@ export const ScrollToTopButton = styled.button`
   height: 5rem;
   cursor: pointer;
   z-index: 3;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+
+  &.visible {
+    opacity: 1;
+    pointer-events: auto;
+  }
 `;
+
 
 export const Img = styled.img`
   width: 3rem;

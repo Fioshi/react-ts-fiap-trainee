@@ -1,22 +1,25 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import styled from 'styled-components';
 import { ScrollToTopButton, Img } from './style';
 
 const ScrollTop = () => {
-  const [showButton, setShowButton] = useState(false);
+  const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 100) {
-        setShowButton(true);
+      const scrollPosition = window.scrollY;
+      const triggerHeight = 1000;
+
+      if (scrollPosition > triggerHeight) {
+        setIsVisible(true);
       } else {
-        setShowButton(false);
+        setIsVisible(false);
       }
     };
 
     window.addEventListener('scroll', handleScroll);
+    handleScroll();
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
@@ -24,14 +27,14 @@ const ScrollTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
-  if (!showButton) return null;
-
   return (
-    <ScrollToTopButton 
-    onClick={scrollToTop}>
-      <Img src={'/assets/svg/scroll-up-arrow.svg'}/>
+    <ScrollToTopButton
+      className={isVisible ? 'visible' : ''}
+      onClick={scrollToTop}
+    >
+      <Img src={'/assets/svg/scroll-up-arrow.svg'} />
     </ScrollToTopButton>
   );
-}
+};
 
-export default ScrollTop
+export default ScrollTop;
