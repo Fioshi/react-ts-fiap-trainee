@@ -1,5 +1,4 @@
 import { gsap } from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 export function educationAnimation(section: HTMLElement) {
   const children = section.querySelectorAll('h2, p, figure, ul');

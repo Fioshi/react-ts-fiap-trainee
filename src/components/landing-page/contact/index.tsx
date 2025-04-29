@@ -1,4 +1,3 @@
-import styled from "styled-components";
 import { ContentSection, Title, Button } from "./style";
 
 const ContactSection = () => {

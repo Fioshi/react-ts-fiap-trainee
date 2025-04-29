@@ -1,5 +1,4 @@
 import { Html, Head, Main, NextScript } from "next/document";
-import Structure from "../components/landing-page/structure";
 
 export default function Document() {
   return (

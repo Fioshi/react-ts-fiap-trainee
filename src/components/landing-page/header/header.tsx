@@ -1,7 +1,6 @@
 'use client';
 
 import React, { useEffect, useRef } from 'react';
-import { gsap } from 'gsap';
 import { updateProgressBar } from './animation';
 import { HeaderContainer, LogoText, ProgressBar } from './style';
 

@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useRef, useEffect } from "react";
-import { animateAccordionContent, animateBackground } from "./animation";
+import { animateAccordionContent } from "./animation";
 import { AccordionContainer, AccordionHeader, Icon, AccordionContent, PageContainer, Title } from "./style";
 
 const estruturaItems = [
