@@ -20,10 +20,11 @@ export const SectionMain = styled.section`
   }
 
   @media (max-width: 414px) {
-    height: 160vh;
+    height: 100%;
   }
 
   @media (max-width: 375px) {
+    height: 180vh;
     padding: 1.5rem 1rem;
   }
 `;

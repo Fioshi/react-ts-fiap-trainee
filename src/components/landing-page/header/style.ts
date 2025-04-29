@@ -5,19 +5,15 @@ export const HeaderContainer = styled.header`
   width: 100vw;
   display: flex;
   align-items: center;
-  padding: 0 2rem;
   justify-content: center;
   background: var(--chinese-black);
   position: fixed;
-  top: 0;
-  left: 0;
   z-index: 3;
 `;
 
 export const LogoText = styled.img`
   letter-spacing: 2px;
-  width: 86.15px;
-  height: 25.05px;
+  height: 2.5rem;
 `;
 
 export const ProgressBar = styled.div`
