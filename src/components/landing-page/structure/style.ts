@@ -1,8 +1,11 @@
 import styled from "styled-components";
 
 export const PageContainer = styled.div`
-  background: linear-gradient(270deg, var(--deep-blue), var(--black),var(--deep-blue));
-  background-size: 400% 400%;
+  background: 
+  radial-gradient(circle at left center, rgba(0, 174, 255, 0.15) 0%, transparent 40rem),
+    radial-gradient(circle at right center, rgba(0, 174, 255, 0.15) 0%, transparent 40rem),
+    linear-gradient(to bottom, #0a0a0a, #000);
+    
   min-height: 100vh;
   padding: 4rem 2rem;
   display: flex;
@@ -11,6 +14,7 @@ export const PageContainer = styled.div`
   font-family: 'Gotham', sans-serif;
   overflow: hidden;
 `;
+
 
 export const Title = styled.h1`
   font-size: 8rem;

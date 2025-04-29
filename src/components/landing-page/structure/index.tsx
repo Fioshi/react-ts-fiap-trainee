@@ -32,7 +32,7 @@ const Accordion = ({ title, content, isOpen, onToggle, isLast }: AccordionProps)
     <AccordionContainer isLast={isLast} isOpen={isOpen}>
       <AccordionHeader onClick={onToggle}>
         {title}
-        <Icon src={isOpen ? 'assets/svg/cursor-open.svg' : 'assets/svg/cursor-close.svg'} alt="Ícone do Accordion" />
+        <Icon src={isOpen ? 'assets/svg/cursor-close.svg' : 'assets/svg/cursor-open.svg'} alt="Ícone do Accordion" />
       </AccordionHeader>
       <AccordionContent ref={contentRef}>
         <p>{content}</p>
@@ -51,7 +51,7 @@ const StructureAccordion = () => {
 
   useEffect(() => {
     if (pageRef.current) {
-      animateBackground(pageRef.current);
+      // animateBackground(pageRef.current);
     }
   }, []);
 

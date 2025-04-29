@@ -49,9 +49,6 @@ export const Content = styled.div`
   position: relative;
   z-index: 2;
   margin-left: 26rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
 
   @media (max-width: 1024px) {
     margin-left: 10rem;
@@ -71,6 +68,7 @@ export const Title = styled.h1`
   font-size: 8rem;
   font-family: 'Gotham-Bold', sans-serif;
   font-weight: 500;
+  margin-bottom: 3rem;
 
   @media (max-width: 1024px) {
     font-size: 6rem;
@@ -158,6 +156,8 @@ export const Scroll = styled.a`
   align-items: center;
   font-family: 'Gotham', sans-serif;
   font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 5%;
   line-height: 1;
   color: var(--pastel-blue);
   margin: 0 0 0.8rem;
