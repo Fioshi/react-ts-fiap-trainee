@@ -123,9 +123,11 @@ export const ImageWrapper = styled.figure`
   }
   
   figcaption {
+    font-family: 'Roboto', sans-serif;
     font-size: 1.2rem;
     color: #666;
     margin-top: 0.5rem;
+    font-weight: 400;
   }
 `;
 
