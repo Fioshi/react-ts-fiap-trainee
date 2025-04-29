@@ -43,20 +43,13 @@ const Accordion = ({ title, content, isOpen, onToggle, isLast }: AccordionProps)
 
 const StructureAccordion = () => {
   const [openIndex, setOpenIndex] = useState<number | null>();
-  const pageRef = useRef<HTMLDivElement>(null);
 
   const handleToggle = (index: number) => {
     setOpenIndex(prev => (prev === index ? null : index));
   };
 
-  useEffect(() => {
-    if (pageRef.current) {
-      // animateBackground(pageRef.current);
-    }
-  }, []);
-
   return (
-    <PageContainer ref={pageRef}>
+    <PageContainer >
       <Title>NOSSA ESTRUTURA</Title>
       {estruturaItems.map((item, index) => (
         <Accordion

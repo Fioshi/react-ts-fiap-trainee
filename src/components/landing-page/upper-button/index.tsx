@@ -9,7 +9,7 @@ const ScrollTop = () => {
   useEffect(() => {
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
-      const triggerHeight = 1000;
+      const triggerHeight = 900;
 
       if (scrollPosition > triggerHeight) {
         setIsVisible(true);
