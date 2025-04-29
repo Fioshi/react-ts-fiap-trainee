@@ -7,7 +7,7 @@ export default function Document() {
       lang="pt_br">
       <Head>
         <link rel="icon" href="assets/favicon.ico" />
-        
+        <meta name="Landing page FIAP" content="FIAP" />
       </Head>
       <body>
         <Main />
