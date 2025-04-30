@@ -1,5 +1,7 @@
 # FIAP TRAINEE
 
+> Finalizado
+
 ## 📝 Descrição
 
 Este é um projeto de exemplo criado como parte do desafio da vaga de **Pessoa desenvolvedora Front-End de nivel Trainee.** A aplicação foi construída com **Next.js**, **React** com **TypeScript**, **Styled Components** para estilização e **GSAP** para animações.
