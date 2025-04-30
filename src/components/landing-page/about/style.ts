@@ -1,7 +1,7 @@
 import { styled } from "styled-components";
 
 export const SectionMain = styled.section`
-  min-height: 95vh;
+  min-height: 90vh;
   font-family: 'Gotham', sans-serif;
   background: #f7f7f7;
   padding: 4rem 2rem;
@@ -12,7 +12,9 @@ export const SectionMain = styled.section`
   opacity: 0;
 
   @media (max-width: 1024px) {
-    min-height: auto;
+    /* height: auto; */
+    font-weight: 5rem;
+    text-align: start;
   }
 
   @media (max-width: 768px) {
@@ -20,11 +22,10 @@ export const SectionMain = styled.section`
   }
 
   @media (max-width: 414px) {
-    height: 100%;
+    height: 135vh;
   }
 
   @media (max-width: 375px) {
-    height: 180vh;
     padding: 1.5rem 1rem;
   }
 `;
@@ -41,7 +42,8 @@ export const Title = styled.h2`
 
   @media (max-width: 1024px) {
     margin-top: 10rem;
-    font-size: 6rem;
+    width: auto;
+    font-size: 5rem;
   }
 
   @media (max-width: 768px) {

@@ -12,4 +12,6 @@ export const GlobalStyles = createGlobalStyle`
     --silver-foil: #AFAFAF;
     --deep-blue: #180D3A;
 }
+
+  
 `

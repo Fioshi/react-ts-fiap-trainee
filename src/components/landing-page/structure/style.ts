@@ -27,7 +27,8 @@ export const Title = styled.h1`
 
   @media (max-width: 1024px) {
     margin-top: 10rem;
-    font-size: 6rem;
+    font-size: 5rem;
+    text-align: start;
   }
 
   @media (max-width: 768px) {
